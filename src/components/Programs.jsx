@@ -111,7 +111,7 @@ function ProgramCard({ title, blurb, cta, leftRibs = true, rightRibs = true }) {
         relative overflow-visible
         w-full mx-3
         /* Smaller on mobile → grows with breakpoints */
-        max-w-[288px] sm:max-w-[320px] md:max-w-[340px] lg:max-w-[340px]
+        max-w-[240px] sm:max-w-[320px] md:max-w-[340px] lg:max-w-[340px]
         rounded-2xl p-4 sm:p-5 md:p-6
         flex flex-col
         min-h-[220px] sm:min-h-[240px] md:min-h-[260px]
@@ -210,3 +210,4 @@ export default function Programs() {
     </div>
   );
 }
+
