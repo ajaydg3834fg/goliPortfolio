@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* Design tokens for your charcoal theme */
+@theme {
+  /* Colors -> use classes like bg-bg-950, text-text, border-border */
+  --color-bg-950: #0B0C10;
+  --color-bg-900: #121316;
+  --color-surface: #171A1F;
+  --color-border: #242833;
+  --color-text: #F2F5F8;
+  --color-muted: #A1A8B3;
+  --color-crimson: #FF3B5C;
+  --color-cyan: #33E1FF;
+  --color-cream:#EAE6DF;
+
+  /* Fonts (optional) */
+  --font-sans: Manrope, ui-sans-serif, system-ui, sans-serif;
+  --font-display: Urbanist, Manrope, ui-sans-serif, system-ui, sans-serif;
+
+  /* Shadows/Radii (optional helpers) */
+  --shadow-card: 0 8px 24px rgba(0,0,0,.35);
+  --radius-2xl: 16px; /* use rounded-2xl */
+}
+
+/* Global polish */
+:root { color-scheme: dark; }
+html, body { @apply bg-bg-950 text-text antialiased; }
+::selection { @apply bg-crimson/60 text-white; }
+a { @apply transition-colors; }
