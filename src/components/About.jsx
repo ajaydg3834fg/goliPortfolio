@@ -82,7 +82,7 @@ export default function About() {
             <div className="relative h-[44svh] md:h-[68svh]">
               {/* Swap this image path if you prefer a different one */}
               <StaticImage
-                src="../images/about.jpg"
+                src="../Images/About.jpg"
                 alt="Coach training shot in the gym"
                 placeholder="blurred"
                 loading="lazy"
@@ -101,3 +101,4 @@ export default function About() {
     </section>
   );
 }
+
