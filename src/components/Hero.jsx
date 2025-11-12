@@ -22,7 +22,7 @@ export default function Hero() {
           <div className="relative rounded-2xl border border-border bg-bg-900/60 shadow-[var(--shadow-card)] overflow-hidden">
             <div className="relative h-[44svh] md:h-[72svh]">
               <StaticImage
-                src="../Images/hero.jpg" /* adjust if your path differs */
+                src="../Images/Hero.jpg" /* adjust if your path differs */
                 alt="Coach portrait in the gym"
                 loading="eager"
                 placeholder="blurred"
@@ -118,5 +118,6 @@ export default function Hero() {
     </section>
   );
 }
+
 
 
