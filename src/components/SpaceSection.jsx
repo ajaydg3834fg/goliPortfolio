@@ -1,5 +1,7 @@
 // SpaceSection.jsx
 import React from "react";
+import imgTop from "../Images/imgTop.jpg"
+import imgBottom from "../Images/imgBottom.jpg"
 
 const COLORS = {
   panel: "#E7E8EA",
@@ -37,8 +39,8 @@ export default function SpaceSection({
   ],
   ctaText = "See timings and location",
   onCta = () => {},
-  imgTop = "https://images.unsplash.com/photo-1558611848-73f7eb4001a1?q=80&w=1600&auto=format&fit=crop",
-  imgBottom = "https://images.unsplash.com/photo-1571907480495-3c4e4b597a17?q=80&w=1600&auto=format&fit=crop",
+  // imgTop = "https://images.unsplash.com/photo-1558611848-73f7eb4001a1?q=80&w=1600&auto=format&fit=crop",
+  // imgBottom = "https://images.unsplash.com/photo-1571907480495-3c4e4b597a17?q=80&w=1600&auto=format&fit=crop",
 }) {
   const panelRef = React.useRef(null);
   const [panelH, setPanelH] = React.useState(null);
@@ -126,3 +128,4 @@ export default function SpaceSection({
     </section>
   );
 }
+
