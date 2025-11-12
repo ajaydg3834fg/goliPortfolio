@@ -1,5 +1,15 @@
 // ProgressSection.jsx
 import React from "react";
+import image1 from "../Images/image1.png"
+import image2 from "../Images/image2.png"
+import image3 from "../Images/image3.png"
+import image4 from "../Images/image4.png"
+import image5 from "../Images/image5.png"
+import image6 from "../Images/image6.png"
+import image7 from "../Images/image7.png"
+import image8 from "../Images/image8.png"
+
+
 
 const UI = {
   bg: "#E7E8EA",
@@ -91,23 +101,23 @@ export default function ProgressSection() {
   const items = [
     {
       title: "Stronger posture and better shoulder health",
-      left: "https://images.unsplash.com/photo-1579758629938-03607ccdbaba?q=80&w=1600&auto=format&fit=crop",
-      right: "https://images.unsplash.com/photo-1579758629421-13c0e4a3e84e?q=80&w=1600&auto=format&fit=crop",
+      left: image1,
+      right: image2,
     },
     {
       title: "Visible recomposition in 12 weeks",
-      left: "https://images.unsplash.com/photo-1583454110551-21f2fa2f4e83?q=80&w=1600&auto=format&fit=crop",
-      right: "https://images.unsplash.com/photo-1583454111885-3c3a39b5a4a8?q=80&w=1600&auto=format&fit=crop",
+      left: image3,
+      right: image4,
     },
     {
       title: "First pull up for beginners",
-      left: "https://images.unsplash.com/photo-1596357395104-5b6e5f3a31b1?q=80&w=1600&auto=format&fit=crop",
-      right: "https://images.unsplash.com/photo-1594737625785-c6683b9f3a1b?q=80&w=1600&auto=format&fit=crop",
+      left:image5,
+      right: image6,
     },
     {
       title: "Confident stage presence for competitors",
-      left: "https://images.unsplash.com/photo-1571731956672-eb2b3b00d8fd?q=80&w=1600&auto=format&fit=crop",
-      right: "https://images.unsplash.com/photo-1546484959-f9a53db84f1d?q=80&w=1600&auto=format&fit=crop",
+      left: image7,
+      right: image8,
     },
   ];
 
@@ -132,3 +142,4 @@ export default function ProgressSection() {
     </section>
   );
 }
+
