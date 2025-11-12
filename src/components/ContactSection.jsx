@@ -204,7 +204,7 @@ function ContactForm({ email }) {
           type="submit"
           className="inline-flex items-center rounded-[14px] px-4 py-2.5 font-semibold text-white transition-transform hover:-translate-y-px"
           style={{ backgroundImage: "linear-gradient(180deg,#F21390 0%,#E7478A 100%)", boxShadow: "0 10px 24px rgba(242,19,144,.28)" }}>
-          Send message
+          Send
         </button>
         <span className="text-xs" style={{ color: UI.textDim }}>
           or WhatsApp us directly — <span className="text-white/90 font-semibold">+91 8790 123 456</span>
@@ -213,3 +213,4 @@ function ContactForm({ email }) {
     </form>
   );
 }
+
