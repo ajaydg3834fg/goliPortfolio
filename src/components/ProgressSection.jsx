@@ -57,7 +57,7 @@ function ProgressCard({ title, imgLeft, imgRight, onClick }) {
             <img
               src={imgLeft}
               alt=""
-              className="block w-full h-[160px] sm:h-[170px] md:h-[180px] object-cover"
+              className="block w-full h-[260px] sm:h-[270px] md:h-[280px] object-cover"
               loading="lazy"
             />
             {/* Left neon seam (pink), tucked at the very left */}
@@ -73,7 +73,7 @@ function ProgressCard({ title, imgLeft, imgRight, onClick }) {
             <img
               src={imgRight}
               alt=""
-              className="block w-full h-[160px] sm:h-[170px] md:h-[180px] object-cover"
+              className="block w-full h-[260px] sm:h-[270px] md:h-[280px] object-cover"
               loading="lazy"
             />
             {/* Right neon seam (cyan), tucked at the very right */}
@@ -142,4 +142,5 @@ export default function ProgressSection() {
     </section>
   );
 }
+
 
